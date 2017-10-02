@@ -12,6 +12,8 @@
 		576222221F7DBE8D00B6B071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576222201F7DBE8D00B6B071 /* Main.storyboard */; };
 		576222241F7DBE8D00B6B071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576222231F7DBE8D00B6B071 /* Assets.xcassets */; };
 		576222271F7DBE8D00B6B071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576222251F7DBE8D00B6B071 /* LaunchScreen.storyboard */; };
+		5762222F1F7DBEE700B6B071 /* GraphicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762222E1F7DBEE700B6B071 /* GraphicsView.swift */; };
+		576222311F7DBEFD00B6B071 /* WaterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576222301F7DBEFD00B6B071 /* WaterDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		576222231F7DBE8D00B6B071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576222261F7DBE8D00B6B071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		576222281F7DBE8D00B6B071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5762222E1F7DBEE700B6B071 /* GraphicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsView.swift; sourceTree = "<group>"; };
+		576222301F7DBEFD00B6B071 /* WaterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5762221C1F7DBE8D00B6B071 /* AppDelegate.swift */,
 				5762221E1F7DBE8D00B6B071 /* ViewController.swift */,
+				5762222E1F7DBEE700B6B071 /* GraphicsView.swift */,
+				576222301F7DBEFD00B6B071 /* WaterDataModel.swift */,
 				576222201F7DBE8D00B6B071 /* Main.storyboard */,
 				576222231F7DBE8D00B6B071 /* Assets.xcassets */,
 				576222251F7DBE8D00B6B071 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5762221F1F7DBE8D00B6B071 /* ViewController.swift in Sources */,
+				576222311F7DBEFD00B6B071 /* WaterDataModel.swift in Sources */,
 				5762221D1F7DBE8D00B6B071 /* AppDelegate.swift in Sources */,
+				5762222F1F7DBEE700B6B071 /* GraphicsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
